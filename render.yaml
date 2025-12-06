@@ -3,7 +3,7 @@ services:
     name: portfolionitij
     runtime: node
     buildCommand: npm install && npm run build
-    startCommand: npm run dev
+    startCommand: npm run render-start
     envVars:
       - key: EMAIL_USER
         sync: false
