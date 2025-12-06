@@ -60,6 +60,7 @@
     "next-themes": "^0.4.6",
     "nodemailer": "^7.0.11",
     "passport": "^0.7.0",
+    "tsx": "^4.20.5",
     "passport-local": "^1.0.0",
     "pg": "^8.16.3",
     "react": "^18.3.1",
@@ -99,7 +100,6 @@
     "esbuild": "^0.25.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.17",
-    "tsx": "^4.20.5",
     "typescript": "5.6.3",
     "vite": "^6.0.0"
   },
