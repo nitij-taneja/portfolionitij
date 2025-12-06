@@ -2,7 +2,7 @@ services:
   - type: web
     name: portfolionitij
     runtime: node
-    buildCommand: npm install && npm install autoprefixer && npm run build
+    buildCommand: npm install && npm install autoprefixer && npm install @tailwindcss/typography && npm run build
     startCommand: npm run render-start
     envVars:
       - key: EMAIL_USER
