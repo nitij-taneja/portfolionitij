@@ -62,7 +62,7 @@ export function ResumeSection() {
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button asChild size="lg" data-testid="button-download-resume-main">
-                  <a href="/api/resume" download="Nitij_Taneja_Resume.pdf">
+                  <a href="/NitijTanejaResume.pdf" download="Nitij_Taneja_Resume.pdf">
                     <Download className="w-4 h-4 mr-2" />
                     Download Resume (PDF)
                   </a>
@@ -73,7 +73,7 @@ export function ResumeSection() {
                   asChild
                   data-testid="button-view-resume"
                 >
-                  <a href="/api/resume" target="_blank" rel="noopener noreferrer">
+                  <a href="/NitijTanejaResume.pdf" target="_blank" rel="noopener noreferrer">
                     <FileText className="w-4 h-4 mr-2" />
                     View Resume
                   </a>

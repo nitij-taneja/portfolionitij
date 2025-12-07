@@ -110,15 +110,15 @@ export async function registerRoutes(
 
   app.get("/api/resume", (req, res) => {
     try {
-      const resumePath = path.join(process.cwd(), "attached_assets", "NitijRESUME_1765002614085.pdf");
-      
+      const resumePath = path.join(process.cwd(), "attached_assets", "NitijTanejaResume.pdf");
+
       if (!fs.existsSync(resumePath)) {
         return res.status(404).json({ error: "Resume not found" });
       }
 
       res.setHeader("Content-Type", "application/pdf");
       res.setHeader("Content-Disposition", 'attachment; filename="Nitij_Taneja_Resume.pdf"');
-      
+
       const fileStream = fs.createReadStream(resumePath);
       fileStream.pipe(res);
     } catch (error) {
