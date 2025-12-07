@@ -133,7 +133,7 @@ export function HeroSection() {
                 className="group"
                 data-testid="button-download-resume"
               >
-                <a href="/api/resume" download="Nitij_Taneja_Resume.pdf">
+                <a href="/NitijTanejaResume.pdf" download="Nitij_Taneja_Resume.pdf">
                   Download Resume
                   <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-0.5" />
                 </a>
