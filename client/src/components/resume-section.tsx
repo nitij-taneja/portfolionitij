@@ -5,7 +5,7 @@ import { useInView } from "@/hooks/use-in-view";
 import { cn } from "@/lib/utils";
 
 const stats = [
-  { icon: Briefcase, label: "Years Experience", value: "3+" },
+  { icon: Briefcase, label: "Companies", value: "3+" },
   { icon: Code2, label: "Projects Completed", value: "15+" },
   { icon: GraduationCap, label: "Certifications", value: "5+" },
   { icon: Trophy, label: "Competitions Won", value: "3+" },
